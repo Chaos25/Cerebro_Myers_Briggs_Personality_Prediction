@@ -34,6 +34,7 @@ app.post('/register', cors(), async (req, res) => {
     const ag= req.body.agee
     const gen= req.body.genderr
     console.log(nam+","+user+","+pass)
+    console.log('hello world!');
     async function InsertData() {
         var retinsert;
         try {
