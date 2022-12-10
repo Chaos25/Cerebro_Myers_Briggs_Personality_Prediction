@@ -1,0 +1,67 @@
+.navbar{
+    background-color: #94B49F!important;
+}
+.take_test{
+    background-color: #DF7861!important;
+}
+.navbar-brand{
+    font-family: 'Raleway', sans-serif!important;
+    color: #FCF8E8!important;
+}
+.question-card{
+    text-align: center;
+    justify-content: center;
+}
+.question{
+    font-family:monospace;
+    font-size: large;
+    font-weight: 600;
+    color: #576071;
+}
+.answer{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #94B49F;
+    font-size: small;
+}
+hr {
+    width: 90%;
+    border: 0;
+    height: 1px;
+    background: #CDD0D5;
+    }
+    input[type='radio'] {
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+        accent-color:#DF7861;
+        border: 2px solid #DF7861 !important;
+        
+        
+    }
+    .large{
+        height:30px;
+        width:30px;
+    }
+    .medium{
+        height: 20px;
+        width: 20px;
+    }
+.next{
+    background-color:#DF7861!important;
+    color:#FCF8E8 ;margin-right: -50%;
+}
+.card{
+   /* background-color: #FCF8E8!important;*/
+    width: fit-content;
+    justify-content: center;
+    padding: 5%;
+    border-width: 2px!important;
+    border-color: #94B49F!important;
+    margin: auto;
+}
+.fa-solid{
+    justify-content: center;
+}
