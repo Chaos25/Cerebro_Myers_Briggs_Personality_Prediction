@@ -4,6 +4,7 @@ const oracledb = require('oracledb');
 const cors = require('cors');
 const { json } = require('express');
 const PORT = 3002;
+require('dotenv').config()
 
 app.use(express.json());
 app.use(cors());
@@ -13,9 +14,9 @@ global.connect = async function connect() {
     try {
         const connection = await oracledb.getConnection(
             {
-                user: 'tg',
-                password: '123',
-                connectionString: 'localhost/ORCL',
+                user: process.env.USERNAME,
+                password: process.env.PASSWORD,
+                connectionString: process.env.CONNECTION_STRING,
 
             }
         )

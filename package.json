@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "bootstrap": "^5.2.1",
+    "dotenv": "^16.0.3",
     "typewriter-effect": "^2.19.0"
   }
 }
