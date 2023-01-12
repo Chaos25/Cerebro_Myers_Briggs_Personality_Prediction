@@ -17,9 +17,9 @@ A counter is maintained to keep track of the selected answers so that we may be 
     
 ## TECH STACK USED
 Frontend: <br/>
-  1. React JS\
-  2. Bootstrap for styling\
-  3. Axios for connection\
+  1. React JS
+  2. Bootstrap for styling
+  3. Axios for connection
 
 Backend: <br />
   1. Node JS\
