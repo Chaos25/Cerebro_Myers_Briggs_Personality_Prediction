@@ -7,10 +7,11 @@ This Personality Prediction project was built to make this pursuit of finding yo
 ## ABOUT THE PROJECT
 This project is a personality predictor based on an existing database of more than 60 questions that calculate your personality prediction based on an extensive and simple to understand questionnaire. These questions have been referenced from the 16Personalities test website. (Link- https://www.16personalities.com/free-personality-test).<br />
 Users will first have to make a login account with a username and password, so that their results can be stored in the database. There are no right or wrong answers in this case and the users’ answers only help in calculating the dominant traits exhibited by calculating a percentage.
-    The charecter traits are based on the Myers–Briggs classification of personality. These are - <br /> 
-    1. Introvert / Extrovert (Energy)
-    2. Observant / Intuitive (Mind)
-    3. Thinking / Feeling (Nature)
+    The charecter traits are based on the Myers–Briggs classification of personality.<br />
+    These are: <br /> 
+    1. Introvert / Extrovert (Energy)<br />
+    2. Observant / Intuitive (Mind)<br />
+    3. Thinking / Feeling (Nature)<br />
     4. Judging / Prospecting (Tactics)<br />
 
 A counter is maintained to keep track of the selected answers so that we may be able to present our prediction when all the questions are answered and the percentages of each character trait is calculated using the code written in PL/SQL. <br />
