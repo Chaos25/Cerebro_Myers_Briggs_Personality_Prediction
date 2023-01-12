@@ -8,10 +8,10 @@ This Personality Prediction project was built to make this pursuit of finding yo
 This project is a personality predictor based on an existing database of more than 60 questions that calculate your personality prediction based on an extensive and simple to understand questionnaire. These questions have been referenced from the 16Personalities test website. (Link- https://www.16personalities.com/free-personality-test).<br />
 Users will first have to make a login account with a username and password, so that their results can be stored in the database. There are no right or wrong answers in this case and the users’ answers only help in calculating the dominant traits exhibited by calculating a percentage.
     The charecter traits are based on the Myers–Briggs classification of personality. These are - <br /> 
-    * Introvert / Extrovert (Energy)
-    * Observant / Intuitive (Mind)
-    * Thinking / Feeling (Nature)
-    * Judging / Prospecting (Tactics)<br />
+    1. Introvert / Extrovert (Energy)
+    2. Observant / Intuitive (Mind)
+    3. Thinking / Feeling (Nature)
+    4. Judging / Prospecting (Tactics)<br />
 
 A counter is maintained to keep track of the selected answers so that we may be able to present our prediction when all the questions are answered and the percentages of each character trait is calculated using the code written in PL/SQL. <br />
     
@@ -22,10 +22,10 @@ Frontend: <br/>
   3. Axios for connection
 
 Backend: <br />
-  1. Node JS\
-  2. Express JS for the server\
+  1. Node JS
+  2. Express JS for the server
   
-Database:\
-  1. Oracle Database\
+Database:<br />
+  1. Oracle Database
   2. PL/SQL for writing the logic.
 
